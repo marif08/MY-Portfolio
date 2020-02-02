@@ -16,8 +16,8 @@ $("#menu_area").removeClass('navfixed');
 });
 // slick slider
 
-$('.center').slick({
-dots: true,
+$('.work-sider').slick({
+dots: false,
 infinite: true,
 speed: 300,
 slidesToShow: 4,
@@ -30,8 +30,7 @@ responsive: [
   settings: {
   slidesToShow: 3,
   slidesToScroll: 3,
-  infinite: true,
-  dots: true
+  infinite: true
   }
 },
 

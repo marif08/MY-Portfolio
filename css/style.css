@@ -162,14 +162,19 @@ body {
 }
 
 #navbarNav {
-	justify-content: flex-end;
-     
+    justify-content: flex-end;
+    display: block;
 }
 
 ul.navbar-nav {
     background: #000;
     margin-right: 5px;
     margin-top: 6px;
+    overflow: hidden;
+    position: relative;
+    width: 0px;
+    right: 0;
+    transition: all linear 0.3s;
     
 }
 
@@ -275,13 +280,16 @@ ul.navbar-nav {
     color: #000;
     float: right;
     margin-top: 4px;
-}
-.nav_slide {
     position: relative;
-    left: -1250px;
-    transition: all linear 0.3s;
+    width: 50px;
+    height: 50px;
 }
 
+.navbar-nav.nav_slide {
+    right: 0;
+    max-width: 675px;
+    width: 100%;
+}
 /* this is the checkbox */
 #toggle{
     display: none;
@@ -290,23 +298,23 @@ ul.navbar-nav {
 /*display: flex for equal/auto child margins*/
 .rows-container{
     position: absolute;
-    top: 24px;
-    right: 35px;
-/*  used a 16:9 ratio for width & height*/
-    width: 3%;
-    height: 9%;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 5px;
     cursor: pointer;
     margin: auto;
     display: flex;
+    height: 49px;
 }
 
 /*menu is responsive to dimensions of label/.rows-container above*/
 .rows{
     position: relative;
-    width: 90%;
-    height: 85%;
-    left: 60px;
-    top: 18px;
+    width: 100%;
+    height: 6px;
+    left: 0;
+    top: 0;
     background-color: rgb(0, 0, 0);
     margin: auto;
     -o-transition: 0.46s;
@@ -463,20 +471,20 @@ ul.navbar-nav {
     font-weight: 700;
     letter-spacing: 3px;
     text-align: center;
+    position: relative;
 }
 #about-area .about-desc .heading-meta:before {
     position: absolute;
     content: 'about me';
-    top: -740px;
-    left: 473px;
+    top: 50%;
+    left: 50%;
     font-size: 2em;
     opacity: 0.25;
     transition: 0.5s;
+    transform: translate(-50%,-50%);
+    color: #bfb8b8;
 }
 
-#about-area:hover .about-desc .heading-meta:before {
-    top: 5px;
-}
 
 #about-area .about-desc h2 {
     font-size: 18px;
@@ -538,7 +546,7 @@ ul.navbar-nav {
 
 #about-area .hire-btn h4 {
     font-size: 20px;
-    padding: 43px 280px;
+    padding: 40px 20px;
     background: #e6e6e6;
     border-radius: 20px;
     line-height: 24px;
@@ -574,7 +582,7 @@ ul.navbar-nav {
 * ----------------------------------------------------------------------------------------
 */
 
-#work-area h3 {
+#work-area .heading-meta h3 {
     padding: 25px;
     display: block;
     font-size: 25px;
@@ -583,23 +591,21 @@ ul.navbar-nav {
     font-weight: 700;
     letter-spacing: 3px;
     text-align: center;
+    position: relative;
 }
 
-#work-area h3:before {
+#work-area .heading-meta h3:before {
     position: absolute;
-    content: 'my work';
-    top: -1428px;
-    left: 488px;
+    content: 'My Work';
+    top: 50%;
+    left: 50%;
     font-size: 2em;
     opacity: 0.25;
-    letter-spacing: 4px;
     transition: 0.5s;
+    transform: translate(-50%,-50%);
+    color: #bfb8b8;
 }
 
-#work-area:hover h3:before {
-	top: 6px;
-     
-}
 
 #work-area p {
     padding: 5px 0;
@@ -683,28 +689,26 @@ ul.navbar-nav {
 	background: #d2bcbc;
     box-shadow: none;
 }
-
-.slick-prev.slick-arrow {
-    padding: 2px 10px;
-    position: relative;
-    top: 220px;
-    left: -15px;
-    margin: 10px;
+.work-sider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
     border: 1px solid #a9a6a6;
-    border-radius: 70%;
+    border-radius: 50%;
     background: #d6d3d3;
+    width: 60px;
+    line-height: 58px;
+    height: 60px;
+    transform: translateY(-50%);
+    background-color: white;
+    z-index: 1;
 }
 
-.slick-next.slick-arrow {
-	padding: 2px 10px;
-    position: relative;
-    top: -222px;
-    left: 1090px;
-    margin: 10px;
-    border: 1px solid #a9a6a6;
-    border-radius: 70%;
-    background: #d6d3d3;
+.work-sider .slick-arrow.slick-next {
+    right: 0;
+    left: auto;
 }
+
 
 .slick-prev.slick-arrow:hover {
 	background: #d2bcbc;
@@ -728,8 +732,8 @@ ul.navbar-nav {
 * ----------------------------------------------------------------------------------------
 */
 
-#skills-area h3 {
-    padding: 40px;
+#skills-area .heading-meta h3 {
+    padding: 25px;
     display: block;
     font-size: 25px;
     text-transform: uppercase;
@@ -737,17 +741,20 @@ ul.navbar-nav {
     font-weight: 700;
     letter-spacing: 3px;
     text-align: center;
+    position: relative;
 }
 
-#skills-area h3:before {
+#skills-area .heading-meta h3:before {
     position: absolute;
-    content: 'my key skill';
-    top: -2076px;
-    left: 488px;
+    content: 'My key skill';
+    top: 50%;
+    left: 50%;
     font-size: 2em;
     opacity: 0.25;
-    letter-spacing: 4px;
     transition: 0.5s;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #bfb8b8;
 }
 
 #skills-area:hover h3:before {

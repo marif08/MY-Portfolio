@@ -27,26 +27,91 @@ Custom media queries
 
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199px) {
-
+	#header_area .social-icon {
+    	padding: 5px;
+    	text-align: right;
+	}
+	.hire-btn {
+   		max-width: 100%;
+	}
+	#about-area .services .read-btn {
+	    padding: 0;
+	    text-align: right;
+	}
+	#footer-area .social_widget .list li {
+	    margin-right: 15px;
+	    display: inline-block;
+	}
 }
 
-/* // Medium devices (tablets, less than 992px) */
-@media (min-width: 768px) and (max-width: 991px) {
-    
-}
 
 
 @media (max-width: 991px) {
+	.container {
+	    max-width: 85%;
+	}
+	#skills-area {
+	    margin-bottom: 50px;
+	}
+	.toggle {
+	    position: absolute;
+	    top: 20px;
+	    right: 0;
+	}
+	#footer-area .footer-part .mail input[type="input"] {
+    	width: 85%;
+    	box-sizing: border-box;
+	}
+	.social_widget .list li {
+	    margin-right: 10px;
+	    display: inline-block;
+	}
+	#footer-area .footer-part .mail input[type="input"] {
+	    padding: 12px 10px;
+	}
+	#footer-area .social_widget .list li {
+	    margin-right: 2px;
+	}
 
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
 }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767px) {
-
+	.container {
+	    max-width: 100%;
+	}
+	#header_area .social-icon {
+	    padding: 0px;
+	    text-align: right;
+	    margin-bottom: 10px;
+	    margin-top: -20px;
+	}
+	.top_header h3 {
+		padding: 0;
+   		margin-top: 10px;
+	}
+	#project-area .counter-box {
+    	padding: 20px 0;
+	}
+	.toggle {
+	    position: absolute;
+	    top: 20px;
+	    right: 15px;
+	}
 }
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
-    
+ 	#footer-area .footer-part .mail input[type="input"] {
+	    padding: 12px 10px;
+	    width: 35%;
+	}
+	#footer-area .social_widget .list li {
+	    margin-right: 2px;
+	}
 }
