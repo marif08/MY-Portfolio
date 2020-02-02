@@ -1,0 +1,993 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author       : ARIFUZZAMAN (ARIF)
+Template Name: Designer - Personal Portfolio Template
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 01.COMMOM CSS STYLE
+* 02.HEADER ARAE CSS STYLE
+* 03.MENU ARAE CSS STYLE
+* 04.BANNER ARAE CSS STYLE
+* 05.ABOUT ARAE CSS STYLE
+* 06.WORK ARAE CSS STYLE
+* 07.SKILL ARAE CSS STYLE
+* 08.COMPLETE PROJECT DESIGN CSS STYLE
+* 09.CREATIVE WORK CSS STYLE
+* 10.AVAILABLE CSS STYLE
+* 11.FOOTER CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 01.COMMON CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.heading {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 02.HEADER ARAE CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+ 
+#particles-js 
+{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+#particles-js
+{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+
+#header_area {
+	background-color: #0872B9;
+}
+
+.top_header h3 {
+	padding: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+}
+
+.top_header .social_icon {
+	padding-top: 11px;
+}
+
+.top_header .social_icon li a{
+	font-size: 14px;
+	color: #fff;
+	margin-left: 25px;
+}
+
+.top_header .social_icon li a:hover {
+	color: #353535;
+}
+
+
+#header_area .social-icon {
+    padding: 8px 0 8px 330px;
+}
+
+#header_area .social-icon a {
+    color: #fff;
+    font-size: 16px;
+    padding: 3px;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 03.MENU ARAE CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+#menu_area {
+	background-color: #e2e2e2;
+    transition: all linear 0.5s;
+    position: fixed;
+    z-index: 13;
+    width: 100%;
+    height: 0px;
+    color: #fff;
+    background-color: none;
+    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+    -webkit-box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+}
+
+ 
+
+.navbar-brand {
+    padding: 20px 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+.nav-link {
+    padding-left: 0;
+}
+
+#navbarNav {
+	justify-content: flex-end;
+     
+}
+
+ul.navbar-nav {
+    background: #000;
+    margin-right: 5px;
+    margin-top: 6px;
+    
+}
+
+.navbar-nav {
+    transition: all linear 0.3s;
+}
+
+.navbar-nav li {
+	margin-left: 15px;
+}
+
+
+.navbar-nav li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-weight: 300;
+}
+
+.navbar-nav li a:hover {
+	color: #4488C3;
+}
+
+.my-toggler-icon {
+	color: #80c5ee;
+}
+
+.navfixed {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000 !important;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.40);
+    transition: all linear 0.5s;
+    z-index: 9999;
+}
+.navfixed .nav-item .nav-link {
+    font-size: 14px;
+    color: #fff !important;
+    transition: 0.4s;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#menu_area input[type="input"] {
+    padding: 0 0 0 10px;
+    margin: 5px 8px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 450;
+    letter-spacing: 2px;
+    background: #4d4e4e;
+    border-radius: 50px;
+    color: #545454;
+    border: dotted;
+}
+
+.modal-dialog {
+    top: 105px;
+}
+
+.modal-content {
+    width: 90%;
+}
+
+.modal-content .form-row label {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.form-control {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 12px;
+    height: calc(1.5em + .30rem + 1px);
+}
+
+.btn.btn-primary {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.btn.btn-secondary {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.modal-footer {
+    padding: 10px;
+}
+.toggle {
+    font-size: 40px;
+    color: #000;
+    float: right;
+    margin-top: 4px;
+}
+.nav_slide {
+    position: relative;
+    left: -1250px;
+    transition: all linear 0.3s;
+}
+
+/* this is the checkbox */
+#toggle{
+    display: none;
+}
+
+/*display: flex for equal/auto child margins*/
+.rows-container{
+    position: absolute;
+    top: 24px;
+    right: 35px;
+/*  used a 16:9 ratio for width & height*/
+    width: 3%;
+    height: 9%;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+}
+
+/*menu is responsive to dimensions of label/.rows-container above*/
+.rows{
+    position: relative;
+    width: 90%;
+    height: 85%;
+    left: 60px;
+    top: 18px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    -o-transition: 0.46s;
+    -ms-transition: 0.46s;
+    -moz-transition: 0.46s;
+    -webkit-transition: 0.46s;
+    transition: 0.46s;
+}
+
+.rows:before, .rows:after{
+    position: absolute;
+    content: '';
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+    
+    -o-transition: 0.46s;
+    -ms-transition: 0.46s;
+    -moz-transition: 0.46s;
+    -webkit-transition: 0.46s;
+    transition: 0.46s;
+}
+
+.rows:before{top: 200%;}
+
+.rows:after{top: -200%;}
+
+#toggle:checked + .rows-container .rows{
+/*  possible rotations (either positive/negative) -> 45, 135, 225, 315*/
+    transform: rotate(135deg)
+}
+
+#toggle:checked + .rows-container .rows:before, #toggle:checked + .rows-container .rows:after{
+/*  possible rotations (either postive/negative -> 90, 270*/
+    transform: rotate(90deg);
+    top: 0
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 04.BANNER ARAE CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+#banner-area {
+    background: url(../images/banner/bnr2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#banner-area .bnr_overlay {
+    background: rgba(252,179,166,1);
+    background: linear-gradient(to bottom right, rgba(252,179,166,1) 0%, rgba(252,222,217,0.53) 50%, rgba(250,133,117,0.53) 51%, rgba(247,140,126,0.34) 71%, rgba(247,140,126,0.33) 72%, rgba(242,149,140,1) 100%); 
+    padding: 161px 0; 
+}
+
+#banner-area .bnr_overlay h2 {
+    color: #fff;
+    font-size: 5vw;
+    margin-bottom: 15px;
+    margin-top: -40px;
+    text-shadow: 10px -10px 15px #000;
+}
+
+#banner-area .bnr_overlay h3 {
+    color: #fff;
+    font-size: 3vw;
+    margin-bottom: 15px;
+    text-shadow: 10px -10px 15px #000;
+}
+
+#banner-area .bnr_overlay h1 {
+    color: #fff;
+    font-size: 3vw;
+    margin-bottom: 15px;
+    text-shadow: 10px -10px 15px #000;
+}
+
+#banner-area .bnr_content a {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid #887bf5;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 10px -10px 50px #000;
+    transition: all linear 0.3s;
+    position: relative;
+    z-index: 99999;
+}
+#banner-area .bnr_content a:hover {
+    color: #000;
+}
+#banner-area .bnr_content a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height:  100%;
+    width: 0%;
+    background: #f00;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.3s;
+    z-index: -11111
+}
+#banner-area .bnr_content a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right:  0;
+    height:  100%;
+    width: 0%;
+    background: #ff0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.3s;
+    z-index: -11111
+}
+#banner-area .bnr_content a:hover:before {
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    transition: all linear 0.3s;
+}
+#banner-area .bnr_content a:hover:after {
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    transition: all linear 0.3s;
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 05.ABOUT ARAE CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+ 
+
+#about-area {
+    background: #f3f3f3;
+}
+	
+#about-area  .heading-meta {
+    padding: 25px;
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+}
+#about-area .about-desc .heading-meta:before {
+    position: absolute;
+    content: 'about me';
+    top: -740px;
+    left: 473px;
+    font-size: 2em;
+    opacity: 0.25;
+    transition: 0.5s;
+}
+
+#about-area:hover .about-desc .heading-meta:before {
+    top: 5px;
+}
+
+#about-area .about-desc h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+}
+
+#about-area .about-desc p {
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 24px;
+    color: #060202;
+    letter-spacing: 1.2px;
+}
+
+
+#about-area .animate-box {
+    padding: 22px;
+    
+}
+#about-area .services {
+    background: #eae6e6;
+    overflow: hidden;
+    box-shadow: 0px 4px 0px 2px rgba(0, 0, 0, 0.06);
+    border: 1px solid #efefef;
+}
+
+#about-area .services h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0px 15px;
+    text-align: center;
+}
+
+#about-area .services p {
+    padding: 10px 26px;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 1.1px;
+}
+
+#about-area .services .read-btn {
+    padding: 0 0px 5px 230px;
+}
+
+#about-area .services .read-btn a {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+    background: #d6d4d4;
+    border-radius: 12px;
+}
+
+
+#about-area .hire-btn h4 {
+    font-size: 20px;
+    padding: 43px 280px;
+    background: #e6e6e6;
+    border-radius: 20px;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+    color: #400202;
+}
+
+#about-area .hire-btn a {
+    position: relative;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    background: #696666;
+    color: #fff;
+    border-radius: 5px;
+    top: -33px;
+}
+
+#about-area .hire-btn a:hover {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 14px;
+    background: #380909;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+ 
+/*
+* ----------------------------------------------------------------------------------------
+* 06.WORK ARAE CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+#work-area h3 {
+    padding: 25px;
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#work-area h3:before {
+    position: absolute;
+    content: 'my work';
+    top: -1428px;
+    left: 488px;
+    font-size: 2em;
+    opacity: 0.25;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+
+#work-area:hover h3:before {
+	top: 6px;
+     
+}
+
+#work-area p {
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #545151;
+    letter-spacing: 1.2px;
+}
+
+#work-area .main {
+    position: relative;
+    transition: 0.5s;
+}
+
+#work-area .img-fluid {
+    padding: 10px;
+}
+
+#work-area .main .gly_icon {
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.38);
+    display: block;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#work-area .main .gly_icon a {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #3648ff;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #3648ff;
+}
+
+#work-area .main:hover .gly_icon {
+    opacity: 1;
+    border: 3px solid #3648ff;
+    box-shadow: 8px 10px 20px #3648ff;
+}
+
+
+.slick-dots {
+    display: flex;
+    text-align: center;
+    padding-left: 410px;
+}
+.slick-dots li {
+    border: 2px solid #fff;
+    background: 0 0;
+    padding: 3px;
+}
+.slick-dots li.slick-active button {
+    background: green;
+}
+.slick-dots li [type="button"] {
+    font-size: 0px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid #caa5a5;
+    background: #e2e2e2;
+    text-indent: -3000px;
+}
+
+
+.slick-dots li [type="button"]:hover {
+	background: #d2bcbc;
+    box-shadow: none;
+}
+
+.slick-prev.slick-arrow {
+    padding: 2px 10px;
+    position: relative;
+    top: 220px;
+    left: -15px;
+    margin: 10px;
+    border: 1px solid #a9a6a6;
+    border-radius: 70%;
+    background: #d6d3d3;
+}
+
+.slick-next.slick-arrow {
+	padding: 2px 10px;
+    position: relative;
+    top: -222px;
+    left: 1090px;
+    margin: 10px;
+    border: 1px solid #a9a6a6;
+    border-radius: 70%;
+    background: #d6d3d3;
+}
+
+.slick-prev.slick-arrow:hover {
+	background: #d2bcbc;
+    box-shadow: none;
+}
+
+.slick-next.slick-arrow:hover {
+	background: #d2bcbc;
+    box-shadow: none;
+}
+
+
+[type="button"] {
+    font-size: 25px;
+}
+
+ 
+/*
+* ----------------------------------------------------------------------------------------
+* 07.SKILL ARAE CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+#skills-area h3 {
+    padding: 40px;
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#skills-area h3:before {
+    position: absolute;
+    content: 'my key skill';
+    top: -2076px;
+    left: 488px;
+    font-size: 2em;
+    opacity: 0.25;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+
+#skills-area:hover h3:before {
+    top: 22px;
+     
+}
+
+#skills-area p {
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #3e0303;
+    letter-spacing: 1.2px;
+}
+
+#skills-area .progress {
+    height: 1.5em;
+}
+
+#skills-area .progress  span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 08.COMPLETE PROJECT DESIGN CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+#project-area {
+    margin: 0px;
+    padding: 15px;
+    background-image: linear-gradient(rgba(54, 50, 72, 0.8),rgba(82, 81, 81, 0.8)),url(../images/project/cover_bg_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#project-area .counter-section {
+    margin: 10px auto;
+    color: #fff;
+}
+
+#project-area .icon-box {
+    border: 1px solid #fdfbfb;
+    height: 50px;
+    width: 50px;
+    margin: 10px auto;
+    transform: rotate(45deg);
+}
+#project-area .icon-box .fa {
+    font-size: 30px;
+    margin: 10px auto;
+    color: #fdfbfb;
+    transform: rotate(-45deg);
+}
+#project-area .counter-box p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fdfbfb;
+}
+#project-area .counter-box .counter {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #fdfbfb;
+}
+ 
+/*
+* ----------------------------------------------------------------------------------------
+* 09.CREATIVE WORK CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+
+#creative-work .section-title h3 {
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+#creative-work h3:before {
+    position: absolute;
+    content: 'creative work';
+    top: -2680px;
+    left: 420px;
+    font-size: 2em;
+    opacity: 0.25;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+
+#creative-work:hover h3:before {
+    top: 20px;
+     
+}
+
+#isotope-arae .isotope {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 10.AVAILABLE CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.available-work-area {
+    position: relative;
+    background-color: #fffbfb;
+    background-size: cover;
+    z-index: 1;
+    padding: 150px 0px;
+    background-attachment: fixed;
+}
+
+.available-work-area:after {
+    position: absolute;
+    background: rgba(0, 0, 0, .8);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+
+.available-text {
+    background: #fff;
+    border-radius: 100%;
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.available-text:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    content: "";
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.available-text h2 {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    color: #232323;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+}
+
+.social-links h3 a {
+    color: #fafafa;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 11.FOOTER CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+
+#footer-area {
+    background-color: #000410;
+}
+
+#footer-area .header h5 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+    padding: 50px 0;
+    color: #fff;
+    margin-bottom: 0px;
+}
+#footer-area .header .footer {
+    margin-top: -20px;
+}
+#footer-area .header p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+#footer-area .footer-part .mail input[type="input"] {
+    font-size: 14px;
+    border: none;
+    padding: 12px 100px;
+    text-align: left;
+    background: #ffffff;
+    color: #cccccc;
+}
+#footer-area .footer-part .mail a.services-link {
+    padding: 10px 14px;
+    position: absolute;
+    border-radius: 0%;
+    font-size: 17px;
+    padding-bottom: -4px;
+    padding: -8px 0px 28px 5px;
+    color: #0a0a0a;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+#footer-area .list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#footer-area .social_widget .list li {
+    margin-right: 17px;
+    display: inline-block;
+}
+
+ 
+
+
+ 
+
+ 

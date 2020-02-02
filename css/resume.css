@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button, select {
+    text-transform: none !important;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #2e2c2c;
+    line-height: 24px;
+}
+img {
+    vertical-align: middle;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.scroll a {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    background: #d47575;
+    color: #fff;
+}
+
+/*header area start*/
+#header_area{
+    padding-top: 50px;
+    font-family: serif;
+}
+#header_area .h_title h1{
+    font-size: 27px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+#header_area .h_content h2 {
+    font-size: 22px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+#header_area .h_content h6 {
+    font-size: 13.5px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+#header_area .h_content i {
+    background: #0d0c10;
+    color: #fff;
+    padding: 2px;
+}
+#header_area .h_content p {
+    font-family: serif;
+    padding: 2px 0 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #131313;
+    letter-spacing: 2px;
+}
+/*header area end*/
+
+/*main part area*/
+
+#main_part .common_headingcv h4 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    background: rgba(193, 196, 228, 0.5);
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#main_part .common_headingcv-1 h4 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    letter-spacing: 1px;
+}
+
+#main_part .m_content p {
+    font-family: serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    line-height: 20px;
+    letter-spacing: .5px;
+}
+
+/*training arae*/
+
+#training-part .common_headingcv h4 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    background: rgba(193, 196, 228, 0.5);
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#training-part tr td p {
+    font-family: serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#training-part tr td {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/*Programming skill area*/
+
+#Programming-part .common_headingcv h4 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    background: rgba(193, 196, 228, 0.5);
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#Programming-part .content p {
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+/*Educational-part area*/
+
+#Educational-part .common_headingcv h4 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    background: rgba(193, 196, 228, 0.5);
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#Educational-part .common_headingcv h5 {
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+#Educational-part .common_headingcv p {
+    font-family: serif;
+    padding: 2px 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+#Educational-part .common_headingcv h6 {
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+/*others arae expeience*/
+
+#others-area-experience .common_headingcv h4 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    background: rgba(193, 196, 228, 0.5);
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#others-area-experience .common_headingcv h5 {
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+#others-area-experience p {
+    font-family: serif;
+    padding: 2px 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+#others-area-experience .common_headingcv h6 {
+    padding: 5px 0;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+
+/*personal information area*/
+
+#personal-information .personal h4 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    background: rgba(193, 196, 228, 0.5);
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#personal-information .m_content .table tr th {
+    font-family: serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: .4rem;
+}
+#personal-information .m_content .table tr td {
+    font-family: serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: .4rem;
+}
+
+/*Special Skills area*/
+
+#Special-skill .Special h4 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    background: rgba(193, 196, 228, 0.5);
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#Special-skill .Special .m_content p {
+    font-family: serif;
+    padding: 2px 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+}
+
+/*reference-area */
+
+#reference-area .reference h4 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    background: rgba(193, 196, 228, 0.5);
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#reference-area .reference-name .heading_ref h6{
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    background: #fbf9f9;
+}
+#reference-area .reference-name .m_content .table tr th {
+    font-family: serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: .4rem;
+}
+#reference-area .reference-name .m_content .table tr td {
+    font-family: serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: .4rem;
+}
+
+/*declaration-area*/
+
+#declaration-area .declaration .common_headingcv h4 {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 0;
+    background: rgba(193, 196, 228, 0.5);
+    border-radius: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#declaration-area .declaration .d_content p {
+    font-family: serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    line-height: 20px;
+    letter-spacing: .5px;
+}
+#declaration-area .declaration .dated p {
+    font-family: serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    line-height: 20px;
+    letter-spacing: .5px;
+}
+#declaration-area .declaration .signature p {
+    font-family: serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    line-height: 20px;
+    letter-spacing: .5px;
+}.5px;
+}
